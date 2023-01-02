@@ -1,31 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
-</head>
-<body>
-    <header>
-        <img src="https://scontent.fdad3-6.fna.fbcdn.net/v/t1.6435-9/72427354_145233330077886_1727096075883380736_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=WOwNzHeTExYAX_DTUtH&_nc_ht=scontent.fdad3-6.fna&oh=00_AfAANDaJGSeXv62qcyvXHn4-yhpW6kn9nHivCN4mY0Dopw&oe=63CD9674">
-        <h1>I'm Hiếu!</h1>
-        <h4>I'm Study FPT Polytechnic</h4>
-            <!-- <div class="radius">
-                rts
-            </div> -->
-            <div class="menu">
-                <ul>
-                    <li class="active"><a href="https://www.facebook.com/ChuCuois"></a><i class="fa-brands fa-facebook"> </i></li>
-                    <li><i class="fa-solid fa-envelope"></i></li>
-                    <li><i class="fa-brands fa-github"></i></li>
-                    <li><i class="fa-solid fa-phone"></i></li>
-                    <div id="action"></div>
-                </ul>
-            </div>
-    </header>
-    <script src="index.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cuoi_Profile</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="card__img">
+        <img src="image/320930489_822502502168499_6838867512219963378_n.jpg" alt="" />
+      </div>
+      <h2>Lê Bảo Hiếu</h2>
+      <p>Sinh viên Cao Đẵng FPT</p>
+      <div class="card__social">
+        <a target="_black" href="https://www.facebook.com/ChuCuois">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a target="_black" href="" onclick="email()">
+          <i class="fa fa-envelope"></i>
+        </a>
+        <a target="_black" href="" onclick="phone()">
+          <i class="fa fa-phone"></i>
+        </a>
+        <script>
+            function email(){
+                alert("Email: 8slehieus8@gmail.com")
+            }
+            function phone(){
+                alert("Phone: 0925674671")
+            }
+        </script>
+        <a
+          target="_black"
+          href="https://github.com/lehieus/lehieus.github.io">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <button>Contact me</button>
+    </div>
+  </body>
 </html>
